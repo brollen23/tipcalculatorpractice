@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(231, 247, 231);
+
+}
+
+h1{
+    color: black;
+    border: solid black 1px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,212,0,1) 51%);
+    padding: 30px;
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+    text-transform: uppercase;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0;
+}
+
+.container {
+    
+    font-family: 'Changa', sans-serif;
+    font-size: 22px; 
+    display: table;
+    text-align: center; 
+    margin: 100px auto;
+    /* Added a box around the content  */
+    box-shadow: 0 0 34px rgba(0,0,0,1);
+    border-radius: 20px;
+    height: 525px;
+    position:sticky;
+    
+  
+
+    
+    
+
+   
+   
+}
+#billA {
+    margin: 7px;
+    
+}
+
+#numOfG {
+    margin: 7px;
+}
+
+.tipButton { 
+    margin-inline-start: 1%;   
+    background-color: rgba(0,212,0,1); 
+    color:black;
+}
+
+#tipP {
+    margin: 7px
+}
+
+#tipA {
+    margin: 7px
+}
+
+#totalA {
+    margin: 7px;
+}
+
+
+/*
+.dropdown {
+    
+}
+
+.dropdown-menu {
+    
+
+}
+
+.dropdown-item {
+
+}
+*/
