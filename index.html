@@ -8,12 +8,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     
     <link rel="stylesheet" href="./styles.css"/>
+    <!-- Below is a google font called Changa-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap" rel="stylesheet">
 
 </head>
 <body>
-
+  <!-- Moved h1 out of the div-->
+  <h1>Tip Calculator</h1>
     <div class="container">
-        <h1>Tip Calculator</h1>
+      
             <div> Bill Amount:
                 <input id="billA" type="text"/>
             </div>
@@ -36,20 +41,23 @@
                 Total Amount:
                 <input id="totalA" type="text"/>
               </div>
+              <div> 
+                <!-- Added id "calculate" so I can make changes in CSS-->
+                <button id="calculate" type="button">Calculate</button> 
+              </div>
+              <!-- Switched position of the calculate button and service dropdown button-->
               <div class="dropdown">
                 How did you like the service?
-                <button class=" service btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="service btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                   Options
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><a class="dropdown-item" value="1">Wonderful</a></li>
-                  <li><a class="dropdown-item" href="#">Fair</a></li>
+                  <li><a class="dropdown-item" href="1">Wonderful</a></li>
+                  <li><a class="dropdown-item" href="2">Fair</a></li>
                   <li><a class="dropdown-item" href="3">Bad</a></li>
                 </ul>
               </div>
-              <div>
-                <button type="button">Calculate</button> 
-              </div>
+             
               
               
               
@@ -57,7 +65,7 @@
         
 
 
-        </div>
+    </div>
     
 
 
