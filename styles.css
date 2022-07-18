@@ -1,3 +1,103 @@
-h1{
-    color:red
+body {
+    background-color: rgb(231, 247, 231);
+
 }
+
+h1{
+    color: black;
+    border: solid black 1px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,212,0,1) 51%);
+    padding: 30px;
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+    text-transform: uppercase;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0;
+}
+
+.container {
+    
+    font-family: 'Changa', sans-serif;
+    font-size: 22px; 
+    display: table;
+    text-align: center; 
+    margin: 100px auto;
+    /* Added a box around the content  */
+    box-shadow: 0 0 34px rgba(0,0,0,1);
+    border-radius: 20px;
+    height: 525px;
+    position:sticky;
+}
+  
+label {
+        display: inline-block;
+        float: left;
+        clear: left;
+        width: 250px;
+        text-align: right; 
+}
+
+input {
+      display: inline-block;
+      float: left;
+      text-align: center;
+      margin: 7px;
+}
+
+
+#billA {
+    margin: 7px;
+    
+}
+
+#numOfG {
+    margin: 7px;
+}
+
+.tipButton { 
+    background-color: rgba(0,212,0,1); 
+    border-color: rgba(0,212,0,1);
+    color:black;
+    float: left;
+    margin: 8px;
+    text-align: center;
+}
+
+#tipP {
+    margin: 7px
+}
+
+#tipA {
+    margin: 7px
+}
+
+#totalA {
+    margin: 7px;
+}
+
+#calculate {
+    background-color: rgba(0,212,0,1);
+    border-color: rgba(0,212,0,1);
+    float: left;
+    margin: 8px;
+}
+
+#dropdownMenuButton1 {
+    color: black;
+    background-color: white;
+    float: left;
+    margin: 6px 8px;
+}
+
+.dropdown-menu {
+
+    
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0,212,0,1);
+
+}
+
