@@ -9,8 +9,9 @@ let button = document.querySelector("#calculate");
 button.addEventListener("click", function(){
     billAmount = document.querySelector("#billA").value;
     tipP = document.querySelector("#tipP").value;
-    tipAmount = document.querySelector("#tipA").value= parseFloat(billAmount)/ tipP;
-    totalAmount = document.querySelector("#totalA").value = parseFloat(billAmount) + parseFloat(tipAmount).toFixed(2);
+    let numberOfPeople = parseFloat(totalNumG.value);
+    tipAmount = document.querySelector("#tipA").value= (parseFloat(billAmount) * tipP/ 100 /numberOfPeople).toFixed(2);
+    document.querySelector("#totalA").value = (parseFloat(billAmount) / numberOfPeople + parseFloat(tipAmount)).toFixed(2);
 })
 
 
