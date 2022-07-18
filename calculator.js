@@ -4,7 +4,7 @@ let tipP = document.querySelector("#tipP");
 let tipAmount = document.querySelector("#tipA");
 let totalAmount = document.querySelector("#totalA");
 let buttons= document.querySelectorAll(".tipButton");
-let button = document.querySelector("#btn");
+let button = document.querySelector("#calculate");
 
 button.addEventListener("click", function(){
     billAmount = document.querySelector("#billA").value;
